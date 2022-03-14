@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "psr-4": {
+      "app\\": "app",
+      "core\\": "vendor/core",
+	  "config\\": "config"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^2.8"
+  },
+  "require": {
+    "vlucas/valitron": "^1.4"
+  }
+}

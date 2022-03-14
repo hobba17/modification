@@ -1,0 +1,26 @@
+﻿[2022-03-10 12:09:53] Текст ошибки: Страница не найдена | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 30 
+==========
+[2022-03-10 12:09:53] Текст ошибки: Страница не найдена | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 30 
+==========
+[2022-03-10 12:23:28] Текст ошибки: Страница не найдена | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 30 
+==========
+[2022-03-10 12:28:41] Текст ошибки: Страница не найдена | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 30 
+==========
+[2022-03-10 12:29:53] Текст ошибки: Страница не найдена | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 30 
+==========
+[2022-03-10 16:52:41] Текст ошибки: Контроллер app\controllers\FeedbackController не найден | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 27 
+==========
+[2022-03-10 21:28:40] Текст ошибки: Страница не найдена | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 30 
+==========
+[2022-03-10 21:35:38] Текст ошибки: Контроллер app\controllers\FeedbackController не найден | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 27 
+==========
+[2022-03-11 22:36:13] Текст ошибки: Страница не найдена | Файл: C:\server\www\parser\vendor\core\Router.php | Строка: 30 
+==========
+[2022-03-11 22:36:27] Текст ошибки: Вы Не Авторизованы! | Файл: C:\server\www\parser\app\models\Profile.php | Строка: 11 
+==========
+[2022-03-11 22:36:45] Текст ошибки: Вы Не Авторизованы! | Файл: C:\server\www\parser\app\models\Profile.php | Строка: 11 
+==========
+[2022-03-11 22:37:38] Текст ошибки: Вы Не Авторизованы! | Файл: C:\server\www\parser\app\models\Profile.php | Строка: 11 
+==========
+[2022-03-14 14:18:28] Текст ошибки: Вы Не Авторизованы! | Файл: C:\server\www\parser\app\models\Profile.php | Строка: 11 
+==========

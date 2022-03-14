@@ -1,0 +1,318 @@
+.text {
+	font: 17px sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-indent: 40px;
+	color: #3e4438;
+	text-align: left;
+}
+.text span{
+	line-height: 24px;
+}
+.zagolovok{
+	border-top: 1px solid #dddddd;
+	font: 17px sans-serif;
+	color: red;
+	margin-bottom: 11px;
+}
+.way {
+	color: #ffff00;
+}
+.way:hover {
+	text-decoration: none;
+}
+.way > span {
+	color: red;
+}
+#osnovnoy{
+    width: 1230px;
+    height: auto;
+    margin: 0 auto;
+}
+/*n*/#block-header{
+	width: 1230px;
+	height: 190px;
+	background: url(../img/one/planet.jpg);
+}/*k*/
+#verx{
+    width: 1230px;
+    height: 190px;
+}
+#verx h1{
+    padding-top: 190px;
+    height: 0;
+    overflow: hidden;
+    background: url(../img/one/planet.jpg);
+    margin: 0 0 0 0px;
+}
+#levo{
+    width: 180px;
+    height: auto;
+}
+#centur{
+    width: 1050px;
+    height: auto;
+    float: right;
+}
+.spisok{
+    position: fixed;
+    margin-top: 20px;
+}
+.spisok li{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.spisok a{
+    font: 15px sans-serif;
+    text-decoration: none;
+    color: #00b050;
+}
+.spisok a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+.kip {
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 9px;
+}
+.kip td {COLOR:#333333; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 11px; LINE-HEIGHT: 150%; padding-left: 0; BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 0px solid; BORDER-LEFT: #666666 0px solid; BORDER-BOTTOM: #666666 1px solid;}
+.sun {COLOR:#ffffff; FONT-WEIGHT: bold; Background: #ff9900;}
+.seg {COLOR:#ffffff; FONT-WEIGHT: bold; Background: #889999;}
+#block-content{
+	width: 1050px;
+	height: auto;
+	border-left: 1px solid #E0E0E0;
+	float: right;
+}
+/*Форма обратной связи*/
+#block-feedback{
+    height: 450px;
+    border-left: 1px solid #E0E0E0;
+}
+#feedback{
+    margin-top: 50px;
+}
+#feedback li{
+    margin-top: 10px;
+}
+#feedback input{
+    width: 300px;
+    height: 30px;
+    font: 17px sans-serif;
+    margin-left: 200px;
+    border-left: 1px solid #ABABAB;
+    border-top: 1px solid #ABABAB;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding-left: 5px;
+}
+#feedback label{
+    font: 14px arial;
+    color: #7b8c8c;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+#feedback textarea{
+    width: 450px;
+    height: 180px;
+    font: 17px sans-serif;
+    margin-left: 200px;
+    border-left: 1px solid #ABABAB;
+    border-top: 1px solid #ABABAB;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+#feedback input:focus,#feedback textarea:focus{
+    border: 1px solid #C4E1EB;
+}
+#block-captcha > input#reg_captcha:focus{
+    border: 1px solid #C4E1EB;}
+#block-captcha{
+    position: absolute;
+    margin-left: 200px;
+    height: 70px;
+}
+#block-captcha > input#reg_captcha{
+    width: 100px;
+    height: 30px;
+    font: 19px sans-serif;
+    margin-left: 15px;
+    padding-left: 5px;
+    color: black;
+    border-left: 1px solid #ABABAB;
+    border-top: 1px solid #ABABAB;
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+#block-captcha img{
+    float: left;
+}
+#block-captcha p{
+    margin-top: 0;
+    font: bold 13px sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    clear: both;
+}
+#block-captcha p:hover{
+    text-decoration: none;
+}
+#form_submit{
+    background: url(../img/grd_reg_button.png);
+    border: 1px solid #E4E4E4;
+    font: bold 14px sans-serif;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 33px;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right: 400px;
+    text-decoration: none;
+}
+#form_submit:active{
+    background: url(../img/grd_reg_button_vert.png);
+}
+.form-error{
+	font: bold 14px sans-serif;
+	color: red;
+	background-color: #F7EDEF;
+	border: 1px solid #FAC8D3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.form-success{
+	font: bold 14px sans-serif;
+	color: black;
+	background-color: #D9FFCA;
+	border: 1px solid #B7E787;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#reloadcaptcha{
+	color: #774adc;
+}
+/* Переключатель языков */
+#title-lang{
+	position: absolute;
+	margin-top: 170px;
+	margin-left: 1148px;
+	cursor: pointer;
+	color: white;
+}
+#title-lang:hover{
+	color: #dd0c08;
+}
+#okno-lang{
+	border: 1px solid #DBDBDB;
+	width: 100px;
+	height: auto;
+	margin-left: 1128px;
+	margin-top: 190px;
+	background-color: white;
+	position: absolute;
+	z-index: 9999;
+	-moz-box-shadow: 0 0 15px #DBDBDB;
+	-webkit-box-shadow: 0 0 15px #DBDBDB;
+	box-shadow: 0 0 15px #DBDBDB;
+	display: none;
+}
+#okno-lang p{
+	background-color: #A3C0D2;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	cursor: pointer;
+}
+#okno-lang a{
+	color: white;
+	margin-left: 23px;
+	text-decoration: none;
+}
+#okno-lang p:hover{
+	background-color: #003399;
+}
+/*Страница новостей class Publication*/
+#news{
+	font: 19px sans-serif;
+	color: #3e4438;
+}
+#news_blog{
+	height: 70px;
+	margin-left: 170px;
+}
+#news_blog p{
+	font: 18px sans-serif;
+	margin-left: -100px;
+	color: #889999;
+	margin-bottom: 0;
+}
+#news_blog span{
+	margin-left: 400px;
+	font: bold 12px sans-serif;
+}
+#news_blog b{
+	margin-left: 100px;
+	font: 18px normal;
+	color: #887788;
+}
+#news_blog i{
+	margin-left: 200px;
+	font-size: 18px;
+	color: #777777;
+	float: left;
+}
+#news_blog img{
+	margin-left: 20px;
+	margin-top: -18px;
+}
+#news_blog a{
+	color: #18b2f0;
+	margin-left: 30px;
+	text-decoration: none;
+}
+#news_blog a:hover{
+	text-decoration: underline;
+	color: red;
+}
+#line{
+	border: none; /* Убираем границу */
+    background-color: #d4c9c5; /* Цвет линии */
+    color: #d4c9c5; /* Цвет линии для IE6-7 */
+    height: 4px; /* Толщина линии */
+}
+.input-count-style{
+	text-align: center;
+	border: 1px solid #DDDDDD;
+	width: 32px;
+	height: 22px;
+	font: 15px sans-serif;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+/* Кнопка Вверх display: none; #A3C0D2 */
+#toTop {
+width:30px;
+border:1px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:16px;
+cursor:pointer;
+display:none;
+color:#333;
+font: bold 14px sans-serif;
+}

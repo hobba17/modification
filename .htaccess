@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /parser/
+RewriteRule ^(.*)$ ./public/$1
